@@ -15,6 +15,11 @@ p:hover{
 
   transform: translateY(-0.25em);
 }
+.colborder{
+border:green 3px solid;
+
+}
+
 
 .jumbotron {
     margin:0;
