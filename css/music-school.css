@@ -236,7 +236,7 @@ color:white;
   height:100%;
 }
 .carousel-caption {
-
+  margin-top: 5%;
   height:250px;
   position: absolute;
   top: 60%;
