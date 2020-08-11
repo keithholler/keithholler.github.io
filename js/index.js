@@ -50,7 +50,7 @@ canvas.height = Math.floor(size * scale);
 context.scale(scale, scale);
 
   let particles = [];
-  let particleSize = 4;
+  let particleSize = 4 ;
   let maxParticles = 200;
   let threshold = 100;
   for (let i = 0; i < maxParticles; i++) {

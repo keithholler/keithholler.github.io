@@ -36,7 +36,7 @@ html{
 }
 
 .hero-image2 {
-  position:absolute;
+  position:absolute ;
  
   background-image:radial-gradient(rgb(29, 67, 78), rgb(55, 178, 187), rgb(11, 116, 11));
   width: 100%;
