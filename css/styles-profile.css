@@ -25,7 +25,7 @@ html{
   background-position: 50% 60%;
 }
 
-#myCanvas {
+#myCanvas { 
   position:absolute;
   left:0%;
 }
@@ -54,11 +54,9 @@ html{
 }
 
 .projectbtn{
-  position: absolute;
+  position: relative;
   z-index: 100;
-  top: 82%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 120px;
   color: #ffffff;
   background-color: rgb(71, 138, 71);
   border-color: rgb(55, 178, 187);
@@ -106,7 +104,7 @@ html{
 .intro{
   position:relative;
   color:rgb(255, 255, 255);
-  top:150px;
+  top:145px;
   left:50%;
   transform: translate(-50%, -50%);
   font-weight: bold;
@@ -153,7 +151,8 @@ h5 {
 .navbar {
   padding: 0;
   margin: 0;
-  background-color: black;
+  background-color: rgb(66, 66, 66);
+  opacity: .5;
 }
 .row-content {
   padding: 50px 0;
