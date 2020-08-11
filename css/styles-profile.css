@@ -25,6 +25,11 @@ html{
   background-position: 50% 60%;
 }
 
+#myCanvas {
+  position:absolute;
+  left:0%;
+}
+
 
 .hero-image2 {
   position:absolute;
