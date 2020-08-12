@@ -22,7 +22,7 @@ h3{
 }
 body{
   font-family: 'Merriweather Sans', sans-serif;
-  background-color:rgb(158, 94, 184);
+  background-color:rgb(173, 155, 180);
 
 }
 p{
@@ -155,7 +155,7 @@ thead{
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: auto auto;
 
 }
 
@@ -232,6 +232,7 @@ background-color:rgb(73, 46, 88);
 }
 
 footer h5{
+ 
 color:white;
 }
 
