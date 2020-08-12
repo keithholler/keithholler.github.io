@@ -163,6 +163,26 @@ h5 {
   min-height: 20px;
 }
 
+#anc:link, #anc:visited{
+  outline: solid;
+  outline-width: .1em;
+  outline-color: #00aaff;
+  display: inline-block;
+  color:white;
+  transition-duration: .2s;
+  padding:14px;
+  text-decoration: none;
+}
+#anc:hover, #anc:active {
+  outline: solid;
+  outline-width: .3em;
+  outline-color: #61caff;
+  display: inline-block;
+  color:white;
+  transition-duration: .2s;
+  text-decoration: none;
+}
+
 
 .flip-card-container {
   width: 400px;
