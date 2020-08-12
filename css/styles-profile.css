@@ -147,6 +147,10 @@ h5 {
   color: white;
 }
 
+.logo{
+  width:50px;
+  height:auto;
+}
 
 .navbar {
   padding: 0;
