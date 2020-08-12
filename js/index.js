@@ -23,7 +23,7 @@ function line(particle, particle2) {
           }
         }
       }
-      //particle.x = particle.x + -particle.vx;
+      particle.x = particle.x + -particle.vx;
       particle.y = particle.y + -particle.vy;
       if (particle.x > canvas.width - particleSize || particle.x < particleSize)
         particle.vx = -particle.vx;
