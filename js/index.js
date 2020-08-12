@@ -57,7 +57,7 @@ context.scale(scale, scale);
     let particle = {
       x: Math.random() * canvas.width,
       y: Math.random() * canvas.height,
-      vx: Math.random(),
+      vx: Math.random() ,
       vy: Math.random()
     }
     particles.push(particle);
