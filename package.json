@@ -5,8 +5,16 @@
   "main": "index.html",
   "scripts": {
     "lite": "lite-server",
-    "start": "npm run lite",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "scss": "node-sass -o css/ css/",
+    "start": "npm run watch:all",
+    "clean": "rimraf dist",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch:scss": "onchange \"css/*.scss\" -- npm run scss",
+    "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
+    "imagemin": "imagemin pics/* -o dist/img",
+    "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin",
+    "usemin": "usemin music-school.html -d dist --htmlmin -o dist/music-school.html && usemin music-school-about.html -d dist --htmlmin -o dist/music-school-about.html && usemin index.html -d dist --htmlmin -o dist/index.html && usemin music-school-feedback.html -d dist --htmlmin -o dist/music-school-feedback.html && usemin music-school-loc.html -d dist --htmlmin -o dist/music-school-loc.html",
+    "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\""
   },
   "repository": {
     "type": "git",
@@ -19,7 +27,14 @@
   },
   "homepage": "https://github.com/keithholler/Profile#readme",
   "devDependencies": {
-    "lite-server": "^2.5.4"
+    "copyfiles": "^2.2.0",
+    "imagemin-cli": "^5.1.0",
+    "lite-server": "^2.5.4",
+    "node-sass": "^4.14.1",
+    "onchange": "^7.0.0",
+    "parallelshell": "^3.0.1",
+    "rimraf": "^3.0.2",
+    "usemin-cli": "^0.6.0"
   },
   "dependencies": {
     "aos": "^2.3.4",
