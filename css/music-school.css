@@ -208,7 +208,7 @@ footer h5 {
   left: 50%;
   transform: translate(-50%, -50%);
   color: black;
-  background-color: rgba(0, 0, 0, 0.5); }
+  background-color: rgba(0, 0, 0, 0.4); }
 
 .carousel-caption p {
   font-size: calc(10px + (26 - 14) * ((100vw - 300px) / (1600 - 300))); }
