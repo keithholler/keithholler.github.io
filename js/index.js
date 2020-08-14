@@ -24,7 +24,7 @@ function line(particle, particle2) {
         }
       }
       particle.x = particle.x + -particle.vx;
-      particle.y = particle.y + -particle.vy;
+      particle.y = particle.y + particle.vy;
       if (particle.x > canvas.width - particleSize || particle.x < particleSize)
         particle.vx = -particle.vx;
       if (particle.y > canvas.height - particleSize || particle.y < particleSize)
@@ -51,7 +51,7 @@ context.scale(scale, scale);
 
   let particles = [];
   let particleSize = 4;
-  let maxParticles = 20;
+  let maxParticles = 25;
   let threshold = 50;
   for (let i = 0; i < maxParticles; i++) {
     let particle = {
