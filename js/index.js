@@ -6,9 +6,25 @@ function line(particle, particle2) {
   }
    
   function animate() {
+    let canvas = document.getElementById('myCanvas');
+    var context = canvas.getContext('2d');
+  
+  // Set display size (css pixels).
+  var size = 400;
+  canvas.style.width = size + "px";
+  canvas.style.height = size + "px";
+  
+  // Set actual size in memory (scaled to account for extra pixel density).
+  var scale = window.devicePixelRatio; // Change to 1 on retina screens to see blurry canvas.
+  canvas.width = Math.floor(size * scale);
+  canvas.height = Math.floor(size * scale);
+  // Normalize coordinate system to use css pixels.
+context.scale(scale, scale);
+context.fillStyle = 'white';
     context.clearRect(0, 0, canvas.width, canvas.height);
     for (let i = 0; i < maxParticles; i++) {
       let particle = particles[i];
+     
       context.fillRect(particle.x - particleSize / 2, particle.y - particleSize / 2, particleSize, particleSize);
       for (let j = 0; j < maxParticles; j++) {
         if (i != j) {
@@ -17,8 +33,8 @@ function line(particle, particle2) {
           let distanceY = Math.abs(particle.y - particle2.y);
           if (distanceX < threshold && distanceY < threshold) {
             context.lineWidth = ((threshold * 2) - (distanceX + distanceY)) / 50;
-            let color = 200 - Math.floor(distanceX + distanceY);
-            context.strokeStyle = 'rgb(' + color + ',' + color + ',' + color + ')';
+            
+            context.strokeStyle = '#FFFFFF';
             line(particle, particle2);
           }
         }
