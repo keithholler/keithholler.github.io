@@ -44,18 +44,69 @@ html {
   transform: translate(-50%, -50%);
   color: white; }
 
+/* .projectbtn {
+  position: relative;
+  z-index: 100;
+  top: 120px;
+  color: #ffffff;
+  background-color: #478a47;
+  border-color: #37b2bb;
+border }
+
+.projectbtn:hover {
+  color: #fff;
+  background-color: #1d434e;
+  border-color: #37b2bb; } */
+
+
 .projectbtn {
   position: relative;
   z-index: 100;
   top: 120px;
   color: #ffffff;
   background-color: #478a47;
-  border-color: #37b2bb; }
+  border-color: #37b2bb;
+  
+}
 
-.projectbtn:hover {
-  color: #fff;
-  background-color: #1d434e;
-  border-color: #37b2bb; }
+
+.projectbtn div {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.3s;
+}
+
+.projectbtn div:after {
+  content: '▼';
+  position: absolute;
+  opacity: 0;
+  bottom:0px;
+  right: 50%;
+  left:50%;
+  transition: 0.3s;
+}
+
+.projectbtn:hover div {
+  padding-bottom: 25p;
+}
+
+.projectbtn:hover div:after {
+  opacity: 1;
+  bottom: -20px;
+}
+
+
+
+  
+
+
+
+
+
+
+
+
 
 .glisten {
   height: 200px;
