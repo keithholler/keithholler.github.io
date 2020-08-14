@@ -19,6 +19,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- build:css css/main.css -->
     <link rel="stylesheet" href="css/music-school.css" />
     <!-- endbuild -->
@@ -113,7 +114,7 @@
               
               
                                       <div class="form-group row ">
-                                          <div class="offset-md-2 col-md-10">
+                                          <div class="offset-md-2 col-md-10 mx-auto">
                                               <button type="submit" class="btn formbut raise text-white">Submit</button>
                                           </div>
                                       </div>
@@ -174,17 +175,19 @@
 
     
 
-    <div class="container mt-5">
+    <div class="container mt-">
       <div class="row row-content">
       <h2 class="col text-center fadein">Meet Our Instructors</h2>
     </div>
-      <div class="row row-content  rowfade">
-        <div class="col media">
+      <div class="row row-content  rowfade justify-content-around">
+        <div class="col-12 col-md-6" data-aos="fade-up-right" data-aos-duration="1000">
           <img
-            class="col img-fluid img-thumbnail teachers teachers-img"
+            class="img-thumbnail  mx-auto"
             src="/pics/GuitarTeacher.jpg"
           />
-          <p class="col media-body teachers">
+        </div>
+        <div class="col-12 col-md-4" data-aos="fade-up-left" data-aos-duration="1000">
+          <p >
             Lorem ipsum dolor sit amet, ea vitae mandamus pericula his, amet
             ocurreret vis cu. Cum in partem utroque insolens, usu id fabellas
             pertinax. Pri mutat debet aliquam eu, per cu labores docendi
@@ -195,13 +198,15 @@
           </p>
         </div>
       </div>
-      <div class="row row-content rowfade">
-        <div class="col media">
+      <div class="row row-content  rowfade justify-content-around">
+        <div class="col-12 col-md-6" data-aos="fade-up-right" data-aos-duration="1000">
           <img
-            class="col img-fluid img-thumbnail teachers teachers-img"
+            class="img-thumbnail mx-auto"
             src="/pics/BassTeacher.png"
           />
-          <p class="col media-body teachers">
+        </div>
+        <div class="col-12 col-md-4" data-aos="fade-up-left" data-aos-duration="1000">
+          <p>
             Lorem ipsum dolor sit amet, ea vitae mandamus pericula his, amet
             ocurreret vis cu. Cum in partem utroque insolens, usu id fabellas
             pertinax. Pri mutat debet aliquam eu, per cu labores docendi
@@ -212,13 +217,15 @@
           </p>
         </div>
       </div>
-      <div class="row row-content rowfade">
-        <div class="col media">
+      <div class="row row-content  rowfade justify-content-around">
+        <div class="col-12 col-md-6" data-aos="fade-up-right" data-aos-duration="1000">
           <img
-            class="col img-fluid img-thumbnail teachers teachers-img"
+            class="img-thumbnail mx-auto drumteach"
             src="/pics/DrumTeacher.jpg"
           />
-          <p class="col media-body teachers">
+        </div>
+        <div class="col-12 col-md-4" data-aos="fade-up-left" data-aos-duration="1000">
+          <p>
             Lorem ipsum dolor sit amet, ea vitae mandamus pericula his, amet
             ocurreret vis cu. Cum in partem utroque insolens, usu id fabellas
             pertinax. Pri mutat debet aliquam eu, per cu labores docendi
@@ -229,13 +236,15 @@
           </p>
         </div>
       </div>
-      <div class="row  rowfade">
-        <div class="media">
+      <div class="row row-content  rowfade justify-content-around">
+        <div class="col-12 col-md-6" data-aos="fade-up-right" data-aos-duration="1000">
           <img
-            class="col img-fluid img-thumbnail teachers teachers-img"
+            class="img-thumbnail mx-auto"
             src="/pics/PianoTeacher.jpg"
           />
-          <p class=" col media-body teachers">
+        </div>
+        <div class="col-12 col-md-4" data-aos="fade-up-left" data-aos-duration="1000">
+          <p>
             Lorem ipsum dolor sit amet, ea vitae mandamus pericula his, amet
             ocurreret vis cu. Cum in partem utroque insolens, usu id fabellas
             pertinax. Pri mutat debet aliquam eu, per cu labores docendi
@@ -301,6 +310,7 @@
     crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       $(function () {
         $('[data-toggle="tooltip"]').tooltip();
@@ -320,6 +330,7 @@
         $('[data-toggle="tooltip"]').tooltip();
       });
     
+      AOS.init();
   </script>  
   </body>
 </html>
