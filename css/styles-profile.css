@@ -33,6 +33,7 @@ html {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: 50% 50%;
+  opacity: .5;
   z-index: -1; }
 
 .hero-text {
@@ -415,4 +416,4 @@ h1 span:nth-child(12) {
 div[class*="col"] {
   background-color: rgba(255, 0, 0, 0.2);
   outline: 1px dotted rgba(0, 0, 0, 0.5);
-}*/
+} */
