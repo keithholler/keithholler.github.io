@@ -59,44 +59,73 @@ border }
   border-color: #37b2bb; } */
 
 
+
+
 .projectbtn {
-  position: relative;
-  z-index: 100;
-  top: 120px;
-  color: #ffffff;
-  background-color: #478a47;
-  border-color: #37b2bb;
-  
-}
-
-
-.projectbtn div {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.3s;
-}
-
-.projectbtn div:after {
-  content: '▼';
   position: absolute;
-  opacity: 0;
-  bottom:0px;
-  right: 50%;
+  z-index: 100;
+  top: 275px;
   left:50%;
-  transition: 0.3s;
+  transform: translate(-50%, -50%);
+  background-color:rgba(0, 0, 0, 0.6);
+  border: 0 solid;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+  outline: 1px solid;
+  outline-color: rgba(255, 255, 255, .5);
+  outline-offset: 0px;
+  text-shadow: none;
+  transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+  color:white;
+
+} 
+
+.projectbtn:hover {
+  border: 1px solid;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 15px;
+  text-shadow: 1px 1px 2px #427388; 
+  color:white;
+
 }
 
-.projectbtn:hover div {
-  padding-bottom: 25p;
+.projectbtn:hover::after {
+  content: '▼';
+  position:absolute;
+  /* opacity: 1; */
+  left:45%;
+  animation: conentslide .5s linear;
+} 
+@keyframes conentslide{
+  0%{
+    bottom:0px;
+    opacity: 0;
+  }
+  100%{
+    bottom:-22px;
+    opacity: 1;
+  }
 }
 
-.projectbtn:hover div:after {
-  opacity: 1;
-  bottom: -20px;
-}
 
+#anc:link, #anc:visited {
+  outline: solid;
+  outline-width: .1em;
+  outline-color: #00aaff;
+  display: inline-block;
+  color: white;
+  transition-duration: .2s;
+  padding: 14px;
+  text-decoration: none; }
 
+#anc:hover, #anc:active {
+  outline: solid;
+  outline-width: .3em;
+  outline-color: #61caff;
+  display: inline-block;
+  color: white;
+  transition-duration: .2s;
+  text-decoration: none; }
 
   
 
@@ -194,24 +223,7 @@ h5 {
   border-bottom: 1px ridge;
   min-height: 20px; }
 
-#anc:link, #anc:visited {
-  outline: solid;
-  outline-width: .1em;
-  outline-color: #00aaff;
-  display: inline-block;
-  color: white;
-  transition-duration: .2s;
-  padding: 14px;
-  text-decoration: none; }
 
-#anc:hover, #anc:active {
-  outline: solid;
-  outline-width: .3em;
-  outline-color: #61caff;
-  display: inline-block;
-  color: white;
-  transition-duration: .2s;
-  text-decoration: none; }
 
 .flip-card-container {
   width: 400px;
