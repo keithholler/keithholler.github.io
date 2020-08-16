@@ -63,3 +63,14 @@ canvas.height = Math.floor(size * scale);
   }
   context.fillStyle = 'white';
   animate();
+
+
+  $(document).mousemove(function(event) {
+    windowWidth = $(window).width();
+    windowHeight = $(window).height();
+    
+    mouseXpercentage = Math.round(event.pageX / windowWidth * 100);
+    mouseYpercentage = Math.round(event.pageY / windowHeight * 100);
+    
+    $('.hero-image2').css('background', 'radial-gradient(at ' + mouseXpercentage + '% ' + mouseYpercentage + '%, #520b0b, #4b1c88, #09005c)');
+  });
