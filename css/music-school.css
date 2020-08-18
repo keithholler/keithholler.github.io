@@ -2,7 +2,7 @@ html,
 body {
   height: 100%;
   position: relative;
-  overflow-x: visible;  }
+  overflow-x: visible; }
 
 header {
   background-color: #492e58; }
@@ -10,10 +10,10 @@ header {
 h1 {
   font-weight: bold;
   color: black; }
-  .schoolname{
-    font-weight: bold;
-  color: white;
-  }
+
+.schoolname {
+  font-weight: bold;
+  color: white; }
 
 h2 {
   font-weight: bold;
@@ -62,10 +62,6 @@ h5 {
 .formhead {
   background-color: #492e58; }
 
-
-
-
-
 .formbut {
   background-color: #714483;
   border-color: #8d54a3; }
@@ -82,7 +78,7 @@ thead {
   background-color: white; }
 
 .trcol2 {
-  background-color: #d6b7e2; }
+  background-color: #ffffff; }
 
 .jumbotron {
   margin: 0;
@@ -152,13 +148,9 @@ thead {
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
 
-
 .drumteach {
   width: 100%;
-  height: auto;
-   }
-
-
+  height: auto; }
 
 .logo {
   height: 80px; }
@@ -202,9 +194,9 @@ footer h5 {
   transform: translate(-50%, -50%);
   color: black;
   background-color: rgba(0, 0, 0, 0.4); }
-  .carouselP{
-    color: white;
-  }
+
+.carouselP {
+  color: white; }
 
 .carousel-caption p {
   font-size: calc(10px + (26 - 14) * ((100vw - 300px) / (1600 - 300))); }
@@ -213,7 +205,7 @@ footer h5 {
   color: white;
   font-size: 40px; }
 
- /* div[class*="row"] {
+/* div[class*="row"] {
   background-color: rgba(78, 197, 31, 0.2);
   outline: 1px dotted rgba(0, 0, 0, 0.25);
 }

@@ -74,3 +74,5 @@ canvas.height = Math.floor(size * scale);
     
     $('.hero-image2').css('background', 'radial-gradient(at ' + mouseXpercentage + '% ' + mouseYpercentage + '%, #520b0b, #4b1c88, #09005c)');
   });
+
+  
