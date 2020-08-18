@@ -82,7 +82,8 @@ border }
   content: '▼';
   position: absolute;
   /* opacity: 1; */
-  left: 45%;
+  left: 50%;
+  transform: translate(-50%);
   animation: conentslide .5s linear; }
 
 @keyframes conentslide {
@@ -461,7 +462,7 @@ h1 span:nth-child(12) {
   width: 60%;
   height: 40%;
   top: 20%;
-  left: 50%;
+  left: 51%;
   transform: translate(-50%, -50%); }
 
 .big {
