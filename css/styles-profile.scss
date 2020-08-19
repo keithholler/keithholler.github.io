@@ -40,27 +40,9 @@ section{
   opacity: .3;
   z-index: -1; }
 
-
-
-/* .projectbtn {
-  position: relative;
-  z-index: 100;
-  top: 120px;
-  color: #ffffff;
-  background-color: #478a47;
-  border-color: #37b2bb;
-border }
-.projectbtn:hover {
-  color: #fff;
-  background-color: #1d434e;
-  border-color: #37b2bb; } */
-
-
-
-
 .projectbtn {
   position:absolute;
-  top: 40%;
+  top: 42%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index:100;
@@ -74,10 +56,21 @@ border }
   transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
   color:white;
   opacity:0;
-  animation:fade 8s linear forwards;
+  animation:fade 9s linear forwards;
 
 } 
 
+@media only screen and (max-width: 900px) {
+  .projectbtn {
+    border: 1px solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #427388; 
+    color:white;
+
+  }
+}
 .projectbtn:hover {
   border: 1px solid;
   box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
@@ -542,7 +535,7 @@ g #E{
   filter:url(#glow2);
   stroke-dasharray: 2200;
   stroke-dashoffset:2200;
-  animation: animate 2s linear forwards,flicker 2s linear infinite;
+  animation: animate 2s linear forwards,flicker 5s linear infinite;
   animation-delay: 1.6s;
 }
 g #A{
@@ -589,7 +582,7 @@ g #I{
   stroke-width:4px;
   filter:url(#glow);
    
-   animation: flicker 2s linear infinite;
+   animation: flicker 8s linear infinite;
    animation-delay:5s;
    opacity:0;
 }
@@ -637,7 +630,7 @@ g #G{
   }
 
   16% {
-    opacity: .98;
+    opacity: .3;
   }
 
   17% {
