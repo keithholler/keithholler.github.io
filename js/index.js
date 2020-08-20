@@ -1,3 +1,5 @@
+// Particle Effect
+
 function line(particle, particle2) {
     context.beginPath();
     context.moveTo(particle.x, particle.y);
@@ -111,6 +113,12 @@ canvas2.height = Math.floor(size * scale);
   animate2();
 
 
+// Glowing mouse pointer
+  $(document).mousemove(function(event) {
+    $('.dot').css({left:event.pageX, top:event.pageY -50});
+  });
+
+
   // $(document).mousemove(function(event) {
   //   windowWidth = $(window).width();
   //   windowHeight = $(window).height();
@@ -118,7 +126,9 @@ canvas2.height = Math.floor(size * scale);
   //   mouseXpercentage = Math.round(event.pageX / windowWidth * 100);
   //   mouseYpercentage = Math.round(event.pageY / windowHeight * 100);
     
-  //   $('.hero-image2').css('background', 'radial-gradient(at ' + mouseXpercentage + '% ' + mouseYpercentage + '%, #520b0b, #4b1c88, #09005c)');
+  //   $('.dot').css('background', 'radial-gradient(at ' + mouseXpercentage + '% ' + mouseYpercentage + '%, #FFFFFF 1%, #000000 100%)','filter:','blur(at ' + mouseXpercentage + '% ' + mouseYpercentage +'1px)');
   // });
 
-  
+ 
+
+

@@ -24,6 +24,8 @@
     <!-- endbuild -->
     <script src="https://use.fontawesome.com/17a3d402db.js"></script>
   </head>
+  <body>
+<!-- Header   -->
   <header>
     <div class="page-container">
       <div id="content-wrap">
@@ -39,6 +41,7 @@
                   <div class="col-lg-6 col-xl-3 my-auto text-center">
                       <h5 class="mt-2  ">Music is Knowledge</h5>
                   </div>
+<!-- Registration button in header -->
                   <div class="col col-xl-3 text-center my-auto">
                     <a
                     class="btn  text-white btn-lg  text-nowrap regbtn"
@@ -59,6 +62,7 @@
                             </div>
                             <div class="modal-body bg-light">
                               <div class="container-fluid">
+<!-- Start of Form                                 -->
                                 <form >
                                     <div class="form-group    row">
                                         <label for="instructorFirstName"  class="col-md-2 col-form-label ">First Name:</label>
@@ -89,7 +93,7 @@
                                                 <option value="Piano">Piano</option>
                                             </select>
                                             <label class=" col-lg-2 col-form-label " for="skill">Skill Level:</label>
-                                            
+
                                                 <input type = "radio" id="beginner" name="skill" value="beginner"/>
                                                 <label for="beginner">Beginner</label>
                                                 <input type = "radio" id="intermediate" name="skill" value="intermediate"/>
@@ -110,31 +114,22 @@
                                             <input type="text" class="form-control" id="email" name="email" placeholder="Email" />
                                         </div>
                                     </div>
-            
-            
-            
                                     <div class="form-group row ">
                                         <div class="offset-md-2 col-md-10 mx-auto">
                                             <button type="submit" class="btn formbut raise text-white">Submit</button>
                                         </div>
                                     </div>
                                 </form>
-                                
-                
-                
-                
                             </div>
                         </div>
                       </div>
                     </div>
                   </div>
-
-
                 </div>
-        </div> 
+        </div>
     </div>
   </header>
-
+<!-- Start of Navbar -->
   <nav class="navbar navbar-expand-sm navbar-light sticky-top">
     <div class="container">
       <button
@@ -172,13 +167,14 @@
       </div>
     </div>
   </nav>
-  
+
   <div class="container ">
     <div class="card mt-5 mb-5 fadein">
           <h2 class="card-header text-white formhead">
             Instructor Feedback
           </h2>
         <div class="card-body bg-light">
+<!-- Start of Form           -->
           <form class="bg-light">
             <div class="form-group row">
               <label for="instructorFirstName" class="col-md-2 col-form-label"
@@ -231,13 +227,13 @@
             </div>
           </form>
         </div>
-      
+
     </div>
   </div>
 </div>
 
-  
 
+<!-- Footer -->
   <footer id="footer">
     <div class="container">
       <hr />
@@ -287,6 +283,7 @@
     </div>
   </footer>
 </div>
+<!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.js"
     integrity="sha256-DrT5NfxfbHvMHux31Lkhxg42LY6of8TaYyK50jnxRnM="
     crossorigin="anonymous"></script>
@@ -300,17 +297,17 @@
      <script>
       var selectAge = document.getElementById("selectAge");
   var contents;
-  
+
   for (let i = 0; i <= 100; i++) {
-   
+
     contents += "<option>" + i + "</option>";
   }
   selectAge.innerHTML = contents;
-  
+
       $(function () {
         $('[data-toggle="tooltip"]').tooltip();
       });
-    
-  </script>  
+
+  </script>
   </body>
 </html>
