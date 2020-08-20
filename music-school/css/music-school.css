@@ -135,14 +135,14 @@ thead {
 
 .parallax2 {
   /* The image used */
-  background-image: url("../pics/music-class3.jpg");
+  background-image: url("../pics/music-class2.jpg");
   /* Set a specific height */
   height: 375px;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: auto auto; }
+  background-size: 100%; }
 
 .parallax3 {
   /* The image used */
