@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+
+    <title>Color Guessing Game</title>
+    
+</head>
+<body>
+    <h1>Color Guessing Game</h1>
+    <button type='button' onclick="runGame()">Start Game</button>
+
+    <script>
+        
+        const COLORS_ARRAY = ['yellow','blue','cyan','red','gold','gray','green','magenta','orange','white'];
+
+        function runGame(){
+            let numTries = 0;
+            let guess = "";
+            let correct = false;
+            const targetIndex = Math.floor(Math.random() * COLORS_ARRAY.length);
+            const target = COLORS_ARRAY[targetIndex];
+//Console log to see answer            
+            console.log(target);
+            do{
+                numTries++
+                guess = prompt('I am thinking of one of these colors:\n\n' + COLORS_ARRAY.sort().join(', ') + '\n\n What color am I thinking of?\n');
+                if(guess === null){
+                    alert("There is no guess!!!");
+                    return;
+                }
+// Added numTries to the argument                
+                correct = checkGuess(guess.toLowerCase(),target,numTries);
+            }while (!correct);
+            
+            document.body.style.background = guess;
+// Added if stament for singular or plural try/tries
+            if(numTries == 1){
+                alert("Congratulation the color was "+target+"\n\n It took you "+numTries+" try");
+            }
+            else{
+                alert("Congratulation the color was "+target+"\n\n It took you "+numTries+" tries");
+            }
+            
+        }
+// Added numTries to the parameters
+        function checkGuess(guess,target,numTries){
+
+            let correct = false;
+            const sorry = "Guess Is Incorrect\n";
+            const again = "Please Try Again\n\n";
+            if( !COLORS_ARRAY.includes(guess)){
+                alert("Invalid Color " + again);
+            }
+            else if(guess > target){
+                alert(sorry+again+"Hint: The color is alpabetically lower"+"\n\n this is your "+numTries+" try");
+            }
+            else if(guess < target){
+                alert(sorry+again+"Hint: The color is alpabetically higher"+"\n\n this is your "+numTries+" try");
+            }
+            else {
+                correct = true; 
+            }
+            return correct;
+            
+        }
+    </script>
+</body>
+</html>
+
+<html></html>

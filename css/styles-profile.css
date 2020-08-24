@@ -100,6 +100,56 @@ body {
   text-shadow: 1px 1px 2px #427388;
   color: white; }
 
+@media only screen and (min-width: 1076px) {
+  #topBtn {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 30px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: transparent;
+    /* Set a background color */
+    color: white;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 15px;
+    /* Some padding */
+    border-radius: 10px;
+    /* Rounded corners */
+    font-size: 15px;
+    /* Increase font size */ }
+  #topBtn::before {
+    content: "↑";
+    position: absolute;
+    /* opacity: 1; */
+    left: 50%;
+    bottom: 35px;
+    transform: translate(-50%); }
+  #topBtn:hover::before {
+    content: "↑";
+    position: absolute;
+    /* opacity: 1; */
+    left: 50%;
+    transform: translate(-50%);
+    animation: conentslideup 0.5s linear forwards; }
+  @keyframes conentslideup {
+    0% {
+      bottom: 10px;
+      opacity: 0; }
+    100% {
+      bottom: 35px;
+      opacity: 1; } } }
+
 .me {
   width: 200px;
   height: auto; }
@@ -119,7 +169,8 @@ body {
 .intro {
   position: relative;
   color: white;
-  font-weight: bold; }
+  font-weight: bold;
+  font-size: 20px; }
 
 p {
   color: white; }
@@ -234,7 +285,7 @@ img {
   left: 0%; }
 
 .cardbodOp {
-  opacity: 0.8;
+  opacity: .9;
   height: 100%; }
 
 .rowpop {
@@ -245,7 +296,8 @@ img {
   width: 200px; }
 
 ul {
-  list-style-type: none; }
+  list-style-type: none;
+  margin-right: 2.4rem; }
 
 li {
   display: inline-block;
