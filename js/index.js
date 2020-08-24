@@ -205,18 +205,6 @@ function scrollFunction() {
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 // // Glowing mouse pointer
 //   $(document).mousemove(function(event) {
 //     $('.dot').css({left:event.pageX, top:event.pageY -50});
