@@ -104,7 +104,7 @@ body {
   #topBtn {
     position: absolute;
     display: none;
-    left: 200%; } }
+    opacity: 0; } }
 
 @media only screen and (min-width: 1076px) {
   #topBtn {
@@ -438,15 +438,15 @@ h1 span:nth-child(12) {
 
 .dream {
   position: absolute;
-  width: 60%;
+  width: 70%;
   height: 40%;
   top: 20%;
-  left: 51%;
+  left: 50%;
   transform: translate(-50%, -50%); }
 
 .big {
   position: absolute;
-  width: 70%;
+  width: 50%;
   height: 50%;
   top: 70%;
   left: 50%;
@@ -502,7 +502,7 @@ g #M {
 
 g #B {
   stroke: yellow;
-  stroke-width: 2px;
+  stroke-width: 4px;
   filter: url(#glow);
   animation: flicker 2s linear infinite;
   animation-delay: 5s;
