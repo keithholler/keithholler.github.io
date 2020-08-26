@@ -1,3 +1,5 @@
+$dreamOpacity:0;
+
 body,
 html {
   height: 100%;
@@ -17,6 +19,7 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  background-color: black;
 }
 
 .hero-image {
@@ -26,7 +29,10 @@ body {
   height: 100%;
   background-repeat: no-repeat;
   background-position: 50% 60%;
+  
 }
+
+
 
 // .hero-image2 {
 //   position: absolute;
@@ -577,13 +583,285 @@ h1 span:nth-child(12) {
   top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
+  animation: Dreamflash 10s  linear;
+
+}
+
+
+.dacrostic {
+  position:absolute;
+    font-size:8vw;
+    position: absolute;
+    color:white;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity:0;
+    animation: Dacrosticflash 10s linear;
+
+}
+.racrostic {
+  position:absolute;
+  font-size:8vw;
+    position: absolute;
+    color:white;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity:0;
+    animation: racrosticflash 10s linear;
+   
+
+}
+.eacrostic {
+  position:absolute;
+  font-size:8vw;
+    position: absolute;
+    color:white;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity:0;
+    animation: eacrosticflash 10s linear;
+   
+
+}
+.aacrostic {
+  position:absolute;
+  font-size:8vw;
+    position: absolute;
+    color:white;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity:0;
+    animation: aacrosticflash 10s linear;
+    
+
+}
+.macrostic {
+  position:absolute;
+  font-size:8vw;
+    position: absolute;
+    color:white;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity:0;
+    animation: macrosticflash 10s linear;
  
 }
 
+@keyframes Dreamflash{
+  0%{opacity:1;}
+  10%{opacity:0;}
+  20%{opacity:1;}
+  30%{opacity:0;}
+  40%{opacity:1;}
+  50%{opacity:0;}
+  55%{opacity:1;}
+  60%{opacity:0;}
+  65%{opacity:1;}
+  70%{opacity:0;}
+  75%{opacity:1;}
+  78%{opacity:0;}
+  80%{opacity:1;}
+  82%{opacity:0;}
+  83%{opacity:1;}
+  84%{opacity:0;}
+  85%{opacity:1;}
+  86%{opacity:0;}
+  87%{opacity:1;}
+  88%{opacity:0;}
+  90%{opacity:1;}
+  91%{opacity:0;}
+  92%{opacity:1;}
+  93%{opacity:0;}
+  94%{opacity:1;}
+  95%{opacity:0;}
+  96%{opacity:1;}
+  97%{opacity:0;}
+  98%{opacity:1;}
+  99%{opacity:0;}
+  100%{opacity:1;}
+}
+
+@keyframes Dacrosticflash{
+  0%{opacity:0;}
+  10%{opacity:1;}
+  20%{opacity:0;}
+  30%{opacity:0;}
+  40%{opacity:0;}
+  50%{opacity:0;}
+  55%{opacity:0;}
+  60%{opacity:0;}
+  65%{opacity:0;}
+  70%{opacity:0;}
+  75%{opacity:0;}
+  78%{opacity:1;}
+  80%{opacity:0;}
+  82%{opacity:0;}
+  83%{opacity:0;}
+  84%{opacity:0;}
+  85%{opacity:0;}
+  86%{opacity:0;}
+  87%{opacity:0;}
+  88%{opacity:0;}
+  90%{opacity:0;}
+  91%{opacity:1;}
+  92%{opacity:0;}
+  93%{opacity:0;}
+  94%{opacity:0;}
+  95%{opacity:0;}
+  96%{opacity:0;}
+  97%{opacity:0;}
+  98%{opacity:0;}
+  99%{opacity:0;}
+  100%{opacity:0;}
+}
+
+@keyframes racrosticflash{
+  0%{opacity:0;}
+  10%{opacity:0;}
+  20%{opacity:0;}
+  30%{opacity:1;}
+  40%{opacity:0;}
+  50%{opacity:0;}
+  55%{opacity:0;}
+  60%{opacity:0;}
+  65%{opacity:0;}
+  70%{opacity:0;}
+  75%{opacity:0;}
+  78%{opacity:0;}
+  80%{opacity:0;}
+  82%{opacity:1;}
+  83%{opacity:0;}
+  84%{opacity:0;}
+  85%{opacity:0;}
+  86%{opacity:0;}
+  87%{opacity:0;}
+  88%{opacity:0;}
+  90%{opacity:0;}
+  91%{opacity:0;}
+  92%{opacity:0;}
+  93%{opacity:1;}
+  94%{opacity:0;}
+  95%{opacity:0;}
+  96%{opacity:0;}
+  97%{opacity:0;}
+  98%{opacity:0;}
+  99%{opacity:0;}
+  100%{opacity:0;}
+}
+
+@keyframes eacrosticflash{
+  0%{opacity:0;}
+  10%{opacity:0;}
+  20%{opacity:0;}
+  30%{opacity:0;}
+  40%{opacity:0;}
+  50%{opacity:1;}
+  55%{opacity:0;}
+  60%{opacity:0;}
+  65%{opacity:0;}
+  70%{opacity:0;}
+  75%{opacity:0;}
+  78%{opacity:0;}
+  80%{opacity:0;}
+  82%{opacity:0;}
+  83%{opacity:0;}
+  84%{opacity:1;}
+  85%{opacity:0;}
+  86%{opacity:0;}
+  87%{opacity:0;}
+  88%{opacity:0;}
+  90%{opacity:0;}
+  91%{opacity:0;}
+  92%{opacity:0;}
+  93%{opacity:0;}
+  94%{opacity:0;}
+  95%{opacity:1;}
+  96%{opacity:0;}
+  97%{opacity:0;}
+  98%{opacity:0;}
+  99%{opacity:0;}
+  100%{opacity:0;}
+}
+
+@keyframes aacrosticflash{
+  0%{opacity:0;}
+  10%{opacity:0;}
+  20%{opacity:0;}
+  30%{opacity:0;}
+  40%{opacity:0;}
+  50%{opacity:0;}
+  55%{opacity:0;}
+  60%{opacity:1;}
+  65%{opacity:0;}
+  70%{opacity:0;}
+  75%{opacity:0;}
+  78%{opacity:0;}
+  80%{opacity:0;}
+  82%{opacity:0;}
+  83%{opacity:0;}
+  84%{opacity:0;}
+  85%{opacity:0;}
+  86%{opacity:1;}
+  87%{opacity:0;}
+  88%{opacity:0;}
+  90%{opacity:0;}
+  91%{opacity:0;}
+  92%{opacity:0;}
+  93%{opacity:0;}
+  94%{opacity:0;}
+  95%{opacity:0;}
+  96%{opacity:0;}
+  97%{opacity:1;}
+  98%{opacity:0;}
+  99%{opacity:0;}
+  100%{opacity:0;}
+}
+
+@keyframes macrosticflash{
+  0%{opacity:0;}
+  10%{opacity:0;}
+  20%{opacity:0;}
+  30%{opacity:0;}
+  40%{opacity:0;}
+  50%{opacity:0;}
+  55%{opacity:0;}
+  60%{opacity:0;}
+  65%{opacity:0;}
+  70%{opacity:1;}
+  75%{opacity:0;}
+  78%{opacity:0;}
+  80%{opacity:0;}
+  82%{opacity:0;}
+  83%{opacity:0;}
+  84%{opacity:0;}
+  85%{opacity:0;}
+  86%{opacity:0;}
+  87%{opacity:0;}
+  88%{opacity:1;}
+  90%{opacity:0;}
+  91%{opacity:0;}
+  92%{opacity:0;}
+  93%{opacity:0;}
+  94%{opacity:0;}
+  95%{opacity:0;}
+  96%{opacity:0;}
+  97%{opacity:0;}
+  98%{opacity:0;}
+  99%{opacity:1;}
+  100%{opacity:0;}
+}
+
+
+
 .big {
   position: absolute;
-  width: 50%;
-  height: 50%;
+  width: 60vw;
+  height: 60vh;
   top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -594,45 +872,48 @@ g #D {
   stroke: red;
   stroke-width: 4px;
   filter: url(#glow2);
-  stroke-dasharray: 2000;
-  stroke-dashoffset: 2000;
-  animation: animate 2s linear forwards, flicker 2s linear infinite;
+  animation: flicker 2s linear infinite;
+  fill:black;
+  opacity:1;
 }
+
+
+
+
 g #R {
   stroke: orange;
   stroke-width: 4px;
   filter: url(#glow2);
-  stroke-dasharray: 2000;
-  stroke-dashoffset: 2000;
-  animation: animate 2s linear forwards, flicker 2s linear infinite;
+  animation:  flicker 2s linear infinite;
   animation-delay: 0.7s;
+  fill:black;
 }
 g #E {
   stroke: green;
   stroke-width: 4px;
   filter: url(#glow2);
-  stroke-dasharray: 2200;
-  stroke-dashoffset: 2200;
-  animation: animate 2s linear forwards, flicker 5s linear infinite;
+  
+  animation: flicker 5s linear infinite;
   animation-delay: 1.6s;
+  fill:black;
 }
 g #A {
   stroke: blue;
   stroke-width: 4px;
   filter: url(#glow2);
-  stroke-dasharray: 2000;
-  stroke-dashoffset: 2000;
-  animation: animate 2s linear forwards, flicker 2s linear infinite;
+
+  animation:  flicker 2s linear infinite;
   animation-delay: 2.6s;
+  fill:black;
 }
 g #M {
   stroke: purple;
   stroke-width: 4px;
   filter: url(#glow2);
-  stroke-dasharray: 3200;
-  stroke-dashoffset: 3200;
-  animation: animate 2s linear forwards, flicker 2s linear infinite;
+  
+  animation:  flicker 2s linear infinite;
   animation-delay: 3.5s;
+  fill:black;
 }
 @keyframes animate {
   to {
@@ -646,8 +927,9 @@ g #B {
   filter: url(#glow);
 
   animation: flicker 2s linear infinite;
-  animation-delay: 5s;
+  animation-delay: 10s;
   opacity: 0;
+  fill:black;
 }
 
 g #I {
@@ -656,8 +938,9 @@ g #I {
   filter: url(#glow);
 
   animation: flicker 8s linear infinite;
-  animation-delay: 5s;
+  animation-delay: 10s;
   opacity: 0;
+  fill:black;
 }
 g #G {
   stroke: yellow;
@@ -665,8 +948,9 @@ g #G {
   filter: url(#glow);
 
   animation: flicker 2s linear infinite;
-  animation-delay: 5s;
+  animation-delay: 10s;
   opacity: 0;
+  fill:black;
 }
 
 @keyframes flicker {

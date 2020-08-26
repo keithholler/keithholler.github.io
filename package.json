@@ -44,6 +44,7 @@
     "jquery": "^3.5.1",
     "jquery-parallax.js": "^1.5.0",
     "popper.js": "^1.16.1",
-    "rellax": "^1.12.1"
+    "rellax": "^1.12.1",
+    "vanilla-tilt": "^1.7.0"
   }
 }
