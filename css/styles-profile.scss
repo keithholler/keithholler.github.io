@@ -1,4 +1,4 @@
-$dreamOpacity:0;
+$dreamOpacity: 0;
 
 body,
 html {
@@ -29,10 +29,7 @@ body {
   height: 100%;
   background-repeat: no-repeat;
   background-position: 50% 60%;
-  
 }
-
-
 
 // .hero-image2 {
 //   position: absolute;
@@ -149,11 +146,11 @@ body {
   color: white;
 }
 @media only screen and (max-width: 1075px) {
-#topBtn {
-  position:absolute;
-  display: none;
-  opacity: 0;
-}
+  #topBtn {
+    position: absolute;
+    display: none;
+    opacity: 0;
+  }
 }
 
 @media only screen and (min-width: 1076px) {
@@ -409,24 +406,6 @@ footer {
   background-color: #2d2c31;
 }
 
-@keyframes rotation {
-  from {
-    transform: rotate(0deg) scale(2.5);
-  }
-  to {
-    transform: rotate(359deg) scale(2.5);
-  }
-}
-
-@keyframes animatedBackground {
-  from {
-    background-position: 0 0;
-  }
-  to {
-    background-position: 0 2000px;
-  }
-}
-
 h1 span {
   position: relative;
   top: 20px;
@@ -583,280 +562,647 @@ h1 span:nth-child(12) {
   top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
-  animation: Dreamflash 10s  linear;
-
+  animation-delay: 3s;
+  animation: Dreamflash 10s linear;
+  animation-delay: 3s;
 }
-
 
 .dacrostic {
-  position:absolute;
-    font-size:8vw;
-    position: absolute;
-    color:white;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    opacity:0;
-    animation: Dacrosticflash 10s linear;
-
+  position: absolute;
+  font-size: 8vw;
+  position: absolute;
+  color: white;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  animation: Dacrosticflash 10s linear;
+  animation-delay: 3s;
 }
 .racrostic {
-  position:absolute;
-  font-size:8vw;
-    position: absolute;
-    color:white;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    opacity:0;
-    animation: racrosticflash 10s linear;
-   
-
+  position: absolute;
+  font-size: 8vw;
+  position: absolute;
+  color: white;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  animation: racrosticflash 10s linear;
+  animation-delay: 3s;
 }
 .eacrostic {
-  position:absolute;
-  font-size:8vw;
-    position: absolute;
-    color:white;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    opacity:0;
-    animation: eacrosticflash 10s linear;
-   
-
+  position: absolute;
+  font-size: 8vw;
+  position: absolute;
+  color: white;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  animation: eacrosticflash 10s linear;
+  animation-delay: 3s;
 }
 .aacrostic {
-  position:absolute;
-  font-size:8vw;
-    position: absolute;
-    color:white;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    opacity:0;
-    animation: aacrosticflash 10s linear;
-    
-
+  position: absolute;
+  font-size: 8vw;
+  position: absolute;
+  color: white;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  animation: aacrosticflash 10s linear;
+  animation-delay: 3s;
 }
 .macrostic {
-  position:absolute;
-  font-size:8vw;
-    position: absolute;
-    color:white;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    opacity:0;
-    animation: macrosticflash 10s linear;
- 
+  position: absolute;
+  font-size: 8vw;
+  position: absolute;
+  color: white;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  animation: macrosticflash 10s linear;
+  animation-delay: 3s;
 }
 
-@keyframes Dreamflash{
-  0%{opacity:1;}
-  10%{opacity:0;}
-  20%{opacity:1;}
-  30%{opacity:0;}
-  40%{opacity:1;}
-  50%{opacity:0;}
-  55%{opacity:1;}
-  60%{opacity:0;}
-  65%{opacity:1;}
-  70%{opacity:0;}
-  75%{opacity:1;}
-  78%{opacity:0;}
-  80%{opacity:1;}
-  82%{opacity:0;}
-  83%{opacity:1;}
-  84%{opacity:0;}
-  85%{opacity:1;}
-  86%{opacity:0;}
-  87%{opacity:1;}
-  88%{opacity:0;}
-  90%{opacity:1;}
-  91%{opacity:0;}
-  92%{opacity:1;}
-  93%{opacity:0;}
-  94%{opacity:1;}
-  95%{opacity:0;}
-  96%{opacity:1;}
-  97%{opacity:0;}
-  98%{opacity:1;}
-  99%{opacity:0;}
-  100%{opacity:1;}
+@keyframes Dreamflash {
+  0% {
+    opacity: 1;
+  }
+  10% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  55% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 0;
+  }
+  65% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+  }
+  78% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 1;
+  }
+  82% {
+    opacity: 0;
+  }
+  83% {
+    opacity: 1;
+  }
+  84% {
+    opacity: 0;
+  }
+  85% {
+    opacity: 1;
+  }
+  86% {
+    opacity: 0;
+  }
+  87% {
+    opacity: 1;
+  }
+  88% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 1;
+  }
+  91% {
+    opacity: 0;
+  }
+  92% {
+    opacity: 1;
+  }
+  93% {
+    opacity: 0;
+  }
+  94% {
+    opacity: 1;
+  }
+  95% {
+    opacity: 0;
+  }
+  96% {
+    opacity: 1;
+  }
+  97% {
+    opacity: 0;
+  }
+  98% {
+    opacity: 1;
+  }
+  99% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
-@keyframes Dacrosticflash{
-  0%{opacity:0;}
-  10%{opacity:1;}
-  20%{opacity:0;}
-  30%{opacity:0;}
-  40%{opacity:0;}
-  50%{opacity:0;}
-  55%{opacity:0;}
-  60%{opacity:0;}
-  65%{opacity:0;}
-  70%{opacity:0;}
-  75%{opacity:0;}
-  78%{opacity:1;}
-  80%{opacity:0;}
-  82%{opacity:0;}
-  83%{opacity:0;}
-  84%{opacity:0;}
-  85%{opacity:0;}
-  86%{opacity:0;}
-  87%{opacity:0;}
-  88%{opacity:0;}
-  90%{opacity:0;}
-  91%{opacity:1;}
-  92%{opacity:0;}
-  93%{opacity:0;}
-  94%{opacity:0;}
-  95%{opacity:0;}
-  96%{opacity:0;}
-  97%{opacity:0;}
-  98%{opacity:0;}
-  99%{opacity:0;}
-  100%{opacity:0;}
+@keyframes Dacrosticflash {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  55% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 0;
+  }
+  65% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  78% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0;
+  }
+  82% {
+    opacity: 0;
+  }
+  83% {
+    opacity: 0;
+  }
+  84% {
+    opacity: 0;
+  }
+  85% {
+    opacity: 0;
+  }
+  86% {
+    opacity: 0;
+  }
+  87% {
+    opacity: 0;
+  }
+  88% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 0;
+  }
+  91% {
+    opacity: 1;
+  }
+  92% {
+    opacity: 0;
+  }
+  93% {
+    opacity: 0;
+  }
+  94% {
+    opacity: 0;
+  }
+  95% {
+    opacity: 0;
+  }
+  96% {
+    opacity: 0;
+  }
+  97% {
+    opacity: 0;
+  }
+  98% {
+    opacity: 0;
+  }
+  99% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
-@keyframes racrosticflash{
-  0%{opacity:0;}
-  10%{opacity:0;}
-  20%{opacity:0;}
-  30%{opacity:1;}
-  40%{opacity:0;}
-  50%{opacity:0;}
-  55%{opacity:0;}
-  60%{opacity:0;}
-  65%{opacity:0;}
-  70%{opacity:0;}
-  75%{opacity:0;}
-  78%{opacity:0;}
-  80%{opacity:0;}
-  82%{opacity:1;}
-  83%{opacity:0;}
-  84%{opacity:0;}
-  85%{opacity:0;}
-  86%{opacity:0;}
-  87%{opacity:0;}
-  88%{opacity:0;}
-  90%{opacity:0;}
-  91%{opacity:0;}
-  92%{opacity:0;}
-  93%{opacity:1;}
-  94%{opacity:0;}
-  95%{opacity:0;}
-  96%{opacity:0;}
-  97%{opacity:0;}
-  98%{opacity:0;}
-  99%{opacity:0;}
-  100%{opacity:0;}
+@keyframes racrosticflash {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  55% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 0;
+  }
+  65% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  78% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0;
+  }
+  82% {
+    opacity: 1;
+  }
+  83% {
+    opacity: 0;
+  }
+  84% {
+    opacity: 0;
+  }
+  85% {
+    opacity: 0;
+  }
+  86% {
+    opacity: 0;
+  }
+  87% {
+    opacity: 0;
+  }
+  88% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 0;
+  }
+  91% {
+    opacity: 0;
+  }
+  92% {
+    opacity: 0;
+  }
+  93% {
+    opacity: 1;
+  }
+  94% {
+    opacity: 0;
+  }
+  95% {
+    opacity: 0;
+  }
+  96% {
+    opacity: 0;
+  }
+  97% {
+    opacity: 0;
+  }
+  98% {
+    opacity: 0;
+  }
+  99% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
-@keyframes eacrosticflash{
-  0%{opacity:0;}
-  10%{opacity:0;}
-  20%{opacity:0;}
-  30%{opacity:0;}
-  40%{opacity:0;}
-  50%{opacity:1;}
-  55%{opacity:0;}
-  60%{opacity:0;}
-  65%{opacity:0;}
-  70%{opacity:0;}
-  75%{opacity:0;}
-  78%{opacity:0;}
-  80%{opacity:0;}
-  82%{opacity:0;}
-  83%{opacity:0;}
-  84%{opacity:1;}
-  85%{opacity:0;}
-  86%{opacity:0;}
-  87%{opacity:0;}
-  88%{opacity:0;}
-  90%{opacity:0;}
-  91%{opacity:0;}
-  92%{opacity:0;}
-  93%{opacity:0;}
-  94%{opacity:0;}
-  95%{opacity:1;}
-  96%{opacity:0;}
-  97%{opacity:0;}
-  98%{opacity:0;}
-  99%{opacity:0;}
-  100%{opacity:0;}
+@keyframes eacrosticflash {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  55% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 0;
+  }
+  65% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  78% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0;
+  }
+  82% {
+    opacity: 0;
+  }
+  83% {
+    opacity: 0;
+  }
+  84% {
+    opacity: 1;
+  }
+  85% {
+    opacity: 0;
+  }
+  86% {
+    opacity: 0;
+  }
+  87% {
+    opacity: 0;
+  }
+  88% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 0;
+  }
+  91% {
+    opacity: 0;
+  }
+  92% {
+    opacity: 0;
+  }
+  93% {
+    opacity: 0;
+  }
+  94% {
+    opacity: 0;
+  }
+  95% {
+    opacity: 1;
+  }
+  96% {
+    opacity: 0;
+  }
+  97% {
+    opacity: 0;
+  }
+  98% {
+    opacity: 0;
+  }
+  99% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
-@keyframes aacrosticflash{
-  0%{opacity:0;}
-  10%{opacity:0;}
-  20%{opacity:0;}
-  30%{opacity:0;}
-  40%{opacity:0;}
-  50%{opacity:0;}
-  55%{opacity:0;}
-  60%{opacity:1;}
-  65%{opacity:0;}
-  70%{opacity:0;}
-  75%{opacity:0;}
-  78%{opacity:0;}
-  80%{opacity:0;}
-  82%{opacity:0;}
-  83%{opacity:0;}
-  84%{opacity:0;}
-  85%{opacity:0;}
-  86%{opacity:1;}
-  87%{opacity:0;}
-  88%{opacity:0;}
-  90%{opacity:0;}
-  91%{opacity:0;}
-  92%{opacity:0;}
-  93%{opacity:0;}
-  94%{opacity:0;}
-  95%{opacity:0;}
-  96%{opacity:0;}
-  97%{opacity:1;}
-  98%{opacity:0;}
-  99%{opacity:0;}
-  100%{opacity:0;}
+@keyframes aacrosticflash {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  55% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 1;
+  }
+  65% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  78% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0;
+  }
+  82% {
+    opacity: 0;
+  }
+  83% {
+    opacity: 0;
+  }
+  84% {
+    opacity: 0;
+  }
+  85% {
+    opacity: 0;
+  }
+  86% {
+    opacity: 1;
+  }
+  87% {
+    opacity: 0;
+  }
+  88% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 0;
+  }
+  91% {
+    opacity: 0;
+  }
+  92% {
+    opacity: 0;
+  }
+  93% {
+    opacity: 0;
+  }
+  94% {
+    opacity: 0;
+  }
+  95% {
+    opacity: 0;
+  }
+  96% {
+    opacity: 0;
+  }
+  97% {
+    opacity: 1;
+  }
+  98% {
+    opacity: 0;
+  }
+  99% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
-@keyframes macrosticflash{
-  0%{opacity:0;}
-  10%{opacity:0;}
-  20%{opacity:0;}
-  30%{opacity:0;}
-  40%{opacity:0;}
-  50%{opacity:0;}
-  55%{opacity:0;}
-  60%{opacity:0;}
-  65%{opacity:0;}
-  70%{opacity:1;}
-  75%{opacity:0;}
-  78%{opacity:0;}
-  80%{opacity:0;}
-  82%{opacity:0;}
-  83%{opacity:0;}
-  84%{opacity:0;}
-  85%{opacity:0;}
-  86%{opacity:0;}
-  87%{opacity:0;}
-  88%{opacity:1;}
-  90%{opacity:0;}
-  91%{opacity:0;}
-  92%{opacity:0;}
-  93%{opacity:0;}
-  94%{opacity:0;}
-  95%{opacity:0;}
-  96%{opacity:0;}
-  97%{opacity:0;}
-  98%{opacity:0;}
-  99%{opacity:1;}
-  100%{opacity:0;}
+@keyframes macrosticflash {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  55% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 0;
+  }
+  65% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
+  78% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0;
+  }
+  82% {
+    opacity: 0;
+  }
+  83% {
+    opacity: 0;
+  }
+  84% {
+    opacity: 0;
+  }
+  85% {
+    opacity: 0;
+  }
+  86% {
+    opacity: 0;
+  }
+  87% {
+    opacity: 0;
+  }
+  88% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 0;
+  }
+  91% {
+    opacity: 0;
+  }
+  92% {
+    opacity: 0;
+  }
+  93% {
+    opacity: 0;
+  }
+  94% {
+    opacity: 0;
+  }
+  95% {
+    opacity: 0;
+  }
+  96% {
+    opacity: 0;
+  }
+  97% {
+    opacity: 0;
+  }
+  98% {
+    opacity: 0;
+  }
+  99% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
-
-
 
 .big {
   position: absolute;
@@ -865,7 +1211,6 @@ h1 span:nth-child(12) {
   top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
-  
 }
 
 g #D {
@@ -873,47 +1218,44 @@ g #D {
   stroke-width: 4px;
   filter: url(#glow2);
   animation: flicker 2s linear infinite;
-  fill:black;
-  opacity:1;
+  fill: black;
+  opacity: 1;
 }
-
-
-
 
 g #R {
   stroke: orange;
   stroke-width: 4px;
   filter: url(#glow2);
-  animation:  flicker 2s linear infinite;
+  animation: flicker 2s linear infinite;
   animation-delay: 0.7s;
-  fill:black;
+  fill: black;
 }
 g #E {
   stroke: green;
   stroke-width: 4px;
   filter: url(#glow2);
-  
+
   animation: flicker 5s linear infinite;
   animation-delay: 1.6s;
-  fill:black;
+  fill: black;
 }
 g #A {
   stroke: blue;
   stroke-width: 4px;
   filter: url(#glow2);
 
-  animation:  flicker 2s linear infinite;
+  animation: flicker 2s linear infinite;
   animation-delay: 2.6s;
-  fill:black;
+  fill: black;
 }
 g #M {
   stroke: purple;
   stroke-width: 4px;
   filter: url(#glow2);
-  
-  animation:  flicker 2s linear infinite;
+
+  animation: flicker 2s linear infinite;
   animation-delay: 3.5s;
-  fill:black;
+  fill: black;
 }
 @keyframes animate {
   to {
@@ -927,9 +1269,9 @@ g #B {
   filter: url(#glow);
 
   animation: flicker 2s linear infinite;
-  animation-delay: 10s;
+  animation-delay: 13s;
   opacity: 0;
-  fill:black;
+  fill: black;
 }
 
 g #I {
@@ -938,9 +1280,9 @@ g #I {
   filter: url(#glow);
 
   animation: flicker 8s linear infinite;
-  animation-delay: 10s;
+  animation-delay: 13s;
   opacity: 0;
-  fill:black;
+  fill: black;
 }
 g #G {
   stroke: yellow;
@@ -948,9 +1290,9 @@ g #G {
   filter: url(#glow);
 
   animation: flicker 2s linear infinite;
-  animation-delay: 10s;
+  animation-delay: 13s;
   opacity: 0;
-  fill:black;
+  fill: black;
 }
 
 @keyframes flicker {

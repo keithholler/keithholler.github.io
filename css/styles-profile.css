@@ -321,18 +321,6 @@ li {
 footer {
   background-color: #2d2c31; }
 
-@keyframes rotation {
-  from {
-    transform: rotate(0deg) scale(2.5); }
-  to {
-    transform: rotate(359deg) scale(2.5); } }
-
-@keyframes animatedBackground {
-  from {
-    background-position: 0 0; }
-  to {
-    background-position: 0 2000px; } }
-
 h1 span {
   position: relative;
   top: 20px;
@@ -444,7 +432,9 @@ h1 span:nth-child(12) {
   top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
-  animation: Dreamflash 10s  linear; }
+  animation-delay: 3s;
+  animation: Dreamflash 10s linear;
+  animation-delay: 3s; }
 
 .dacrostic {
   position: absolute;
@@ -455,7 +445,8 @@ h1 span:nth-child(12) {
   left: 50%;
   transform: translate(-50%, -50%);
   opacity: 0;
-  animation: Dacrosticflash 10s linear; }
+  animation: Dacrosticflash 10s linear;
+  animation-delay: 3s; }
 
 .racrostic {
   position: absolute;
@@ -466,7 +457,8 @@ h1 span:nth-child(12) {
   left: 50%;
   transform: translate(-50%, -50%);
   opacity: 0;
-  animation: racrosticflash 10s linear; }
+  animation: racrosticflash 10s linear;
+  animation-delay: 3s; }
 
 .eacrostic {
   position: absolute;
@@ -477,7 +469,8 @@ h1 span:nth-child(12) {
   left: 50%;
   transform: translate(-50%, -50%);
   opacity: 0;
-  animation: eacrosticflash 10s linear; }
+  animation: eacrosticflash 10s linear;
+  animation-delay: 3s; }
 
 .aacrostic {
   position: absolute;
@@ -488,7 +481,8 @@ h1 span:nth-child(12) {
   left: 50%;
   transform: translate(-50%, -50%);
   opacity: 0;
-  animation: aacrosticflash 10s linear; }
+  animation: aacrosticflash 10s linear;
+  animation-delay: 3s; }
 
 .macrostic {
   position: absolute;
@@ -499,7 +493,8 @@ h1 span:nth-child(12) {
   left: 50%;
   transform: translate(-50%, -50%);
   opacity: 0;
-  animation: macrosticflash 10s linear; }
+  animation: macrosticflash 10s linear;
+  animation-delay: 3s; }
 
 @keyframes Dreamflash {
   0% {
@@ -942,7 +937,7 @@ g #B {
   stroke-width: 4px;
   filter: url(#glow);
   animation: flicker 2s linear infinite;
-  animation-delay: 10s;
+  animation-delay: 13s;
   opacity: 0;
   fill: black; }
 
@@ -951,7 +946,7 @@ g #I {
   stroke-width: 4px;
   filter: url(#glow);
   animation: flicker 8s linear infinite;
-  animation-delay: 10s;
+  animation-delay: 13s;
   opacity: 0;
   fill: black; }
 
@@ -960,7 +955,7 @@ g #G {
   stroke-width: 4px;
   filter: url(#glow);
   animation: flicker 2s linear infinite;
-  animation-delay: 10s;
+  animation-delay: 13s;
   opacity: 0;
   fill: black; }
 
