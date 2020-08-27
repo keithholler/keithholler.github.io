@@ -219,9 +219,6 @@ body {
   height: auto;
 }
 
-.glisten {
-  font-weight: bold;
-}
 
 .hide {
   position: relative;
@@ -492,62 +489,7 @@ h1 span:nth-child(12) {
   }
 }
 
-.glisten2 span {
-  font-size: 20px;
-  animation: faderight 3s linear;
-}
 
-.glisten span:nth-child(0) {
-  animation-delay: 0.1s;
-}
-
-.glisten span:nth-child(1) {
-  animation-delay: 0.2s;
-}
-
-.glisten span:nth-child(2) {
-  animation-delay: 0.3s;
-}
-
-.glisten span:nth-child(3) {
-  animation-delay: 0.4s;
-}
-
-.glisten span:nth-child(4) {
-  animation-delay: 0.5s;
-}
-
-.glisten span:nth-child(5) {
-  animation-delay: 0.6s;
-}
-
-.glisten span:nth-child(6) {
-  animation-delay: 0.7s;
-}
-
-.glisten span:nth-child(7) {
-  animation-delay: 0.8s;
-}
-
-.glisten span:nth-child(8) {
-  animation-delay: 0.9s;
-}
-
-.glisten span:nth-child(9) {
-  animation-delay: 0.1s;
-}
-
-.glisten span:nth-child(10) {
-  animation-delay: 0.11s;
-}
-
-.glisten span:nth-child(11) {
-  animation-delay: 0.12s;
-}
-
-.glisten span:nth-child(12) {
-  animation-delay: 0.13s;
-}
 
 //  div[class*="row"] {
 //   background-color: rgba(78, 197, 31, 0.2);
@@ -1424,33 +1366,28 @@ g #G {
   }
 }
 
-
 .swiper-container {
   width: 100%;
   padding-top: 50px;
   padding-bottom: 50px;
   box-sizing: border-box;
-  
 }
 
 .swiper-slide {
-  position:relative;
-  border:black 2px solid;
+  position: relative;
+  border: black 2px solid;
   font-weight: 900;
- background-color: white;
+  background-color: white;
   width: 380px;
   height: 400px;
   box-sizing: border-box;
-
 }
-.swiper-slide img{
+.swiper-slide img {
   position: absolute;
-  width:99.9%;
-  height:94%;
-  top:6%;
-  left:0%;
+  width: 99.9%;
+  height: 94%;
+  top: 6%;
+  left: 0%;
 }
 
-h2{
-  letter-spacing: 0.2em; 
-}
+
