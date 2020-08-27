@@ -222,5 +222,24 @@ function scrollFunction() {
   // });
 
  
-
-
+  var swiper = new Swiper('.swiper-container', {
+    effect: 'coverflow',
+    loop:true,
+    grabCursor: true,
+    centeredSlides: true,
+    mousewheel:true,
+    slidesPerView: 'auto',
+    coverflowEffect: {
+      rotate: 50,
+      stretch: 0,
+      depth: 200,
+      modifier: 1,
+      slideShadows: true,
+      
+    },
+    pagination: {
+      el: '.swiper-pagination',
+    },
+    
+  });
+  
