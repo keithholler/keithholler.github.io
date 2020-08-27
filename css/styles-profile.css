@@ -3,7 +3,9 @@ body,
 html {
   height: 100%;
   scroll-behavior: smooth;
-  z-index: 2; }
+  z-index: 2;
+  margin: 0;
+  padding: 0; }
 
 body {
   font-family: "Roboto", sans-serif;
@@ -1027,19 +1029,21 @@ g #G {
 .swiper-container {
   width: 100%;
   padding-top: 50px;
-  padding-bottom: 50px; }
+  padding-bottom: 50px;
+  box-sizing: border-box; }
 
 .swiper-slide {
   position: relative;
   border: black 2px solid;
   font-weight: 900;
   background-color: white;
-  width: 400px;
-  height: 400px; }
+  width: 380px;
+  height: 400px;
+  box-sizing: border-box; }
 
 .swiper-slide img {
   position: absolute;
-  width: 100%;
+  width: 99.9%;
   height: 94%;
   top: 6%;
   left: 0%; }

@@ -35,13 +35,15 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css"
     />
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
     <!-- build:css css/main.css -->
     <link rel="stylesheet" href="css/styles-profile.css" />
     <!-- endbuild -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <script src="https://use.fontawesome.com/17a3d402db.js"></script>
-    
   </head>
 
   <body>
@@ -221,7 +223,7 @@
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-           Projects
+            Projects
           </h2>
         </div>
       </div>
@@ -734,56 +736,67 @@
     </div>
 
     <!-- Certification     -->
-    
 
-   
     <div class="container" id="certifications">
       <div class="row row-content">
-        <div class="col-md-12 mx-auto">
+        <div class="col-12 mx-auto">
           <h2 class="text-white text-center">Certifications</h2>
+        </div>
       </div>
-      </div>
-          <div class="row row-content-topborder">
-            <div class="col-md-12 mx-auto">
-   <!-- Swiper -->
-  <div class="swiper-container">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide text-center">
-        HTML , CSS , Javascript
-        <img src="certifications/HTML,_CSS_and_JavaScript-HTML,_CSS_and_JavaScript_Course_Certificate_2590-page-001.jpg">
-      </div>
-      <div class="swiper-slide text-center">
-        Bootstrap
-        <img src="certifications/Front_End_Web_UI_Frameworks_and_Tools_Bootstrap_4-Bootstrap_Course_Certificate_2958-page-001.jpg">
-      </div>
-      <div class="swiper-slide text-center">
-        Usability
-      <img src="certifications/Usability.jpg">
-      </div>
-      <div class="swiper-slide text-center">
-        UI Patterns
-        <img src="certifications/UIPatterns.jpg">
-      </div>
-      <div class="swiper-slide text-center">
-        Design Thinking
-        <img src="certifications/DesignThinking.jpg">
+      <div class="row row-content-topborder">
+        <div class="col mx-auto">
+          <!-- Swiper -->
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide text-center">
+                HTML , CSS , Javascript
+                <a
+                  href="certifications/HTML,_CSS_and_JavaScript-HTML,_CSS_and_JavaScript_Course_Certificate_2590.pdf"
+                >
+                  <img
+                    src="certifications/HTML,_CSS_and_JavaScript-HTML,_CSS_and_JavaScript_Course_Certificate_2590-page-001.jpg"
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide text-center">
+                Bootstrap
+                <a
+                  href="certifications/Front_End_Web_UI_Frameworks_and_Tools_Bootstrap_4-Bootstrap_Course_Certificate_2958.pdf"
+                >
+                  <img
+                    src="certifications/Front_End_Web_UI_Frameworks_and_Tools_Bootstrap_4-Bootstrap_Course_Certificate_2958-page-001.jpg"
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide text-center">
+                Usability
+                <a href="certifications/Usability.pdf">
+                  <img src="certifications/Usability.jpg" />
+                </a>
+              </div>
+              <div class="swiper-slide text-center">
+                UI Patterns
+                <a href="certifications/UI Patterns.pdf">
+                  <img src="certifications/UIPatterns.jpg" />
+                </a>
+              </div>
+              <div class="swiper-slide text-center">
+                Design Thinking
+                <a href="certifications/DesignThinking.pdf">
+                  <img src="certifications/DesignThinking.jpg" />
+                </a>
+              </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
       </div>
     </div>
-    <!-- Add Pagination -->
-    <div class="swiper-pagination"></div>
-  </div>
-
-</div>
-</div>
-</div>
-
-
-
-   
 
     <!-- Start of Footer   -->
     <footer>
-      <div class="container">
+      <div class="container-fluid">
         <hr />
         <div class="row justify-content-md-center">
           <div class="col-4 col-sm-2">
@@ -851,7 +864,6 @@
     <script src="js/index.js"></script>
     <script>
       AOS.init();
-      
     </script>
   </body>
 </html>
